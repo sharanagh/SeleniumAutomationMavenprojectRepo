@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.selenium.listeners.MyListeners1"></listener>
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.testcases.SearchTest"/>
+      <class name="com.selenium.testcases.LoginTest"/>
+      <class name="com.selenium.testcases.RegisterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
