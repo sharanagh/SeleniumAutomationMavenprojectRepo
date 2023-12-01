@@ -2,18 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.selenium.listeners.MyListeners1"/>
+    <listener class-name="com.selenium.listeners.MyListeners"/>
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.selenium.testcases.Search">
+      <class name="com.selenium.testcases.SearchTest">
         <methods>
-          <include name="searchWithInvalidProduct"/>
           <include name="searchWithoutProduct"/>
           <include name="startChromeBrowser"/>
           <include name="tearDown"/>
+          <include name="searchWithInvalidProduct"/>
         </methods>
-      </class> <!-- com.selenium.testcases.Search -->
+      </class> <!-- com.selenium.testcases.SearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

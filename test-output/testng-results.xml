@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-27T14:29:45Z" name="Suite" finished-at="2023-11-27T14:30:15Z" duration-ms="30146">
+  <suite started-at="2023-12-01T15:05:12Z" name="Suite" finished-at="2023-12-01T15:07:42Z" duration-ms="150820">
     <groups>
     </groups>
-    <test started-at="2023-11-27T14:29:45Z" name="Test" finished-at="2023-11-27T14:30:15Z" duration-ms="30146">
-      <class name="com.selenium.testcases.Search">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T19:59:47Z" name="startChromeBrowser" finished-at="2023-11-27T20:00:01Z" duration-ms="14754" status="PASS">
+    <test started-at="2023-12-01T15:05:12Z" name="Test" finished-at="2023-12-01T15:07:42Z" duration-ms="150820">
+      <class name="com.selenium.testcases.RegisterTest">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:07Z" name="startChromeBrowser" finished-at="2023-12-01T20:36:16Z" duration-ms="8971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="searchWithValidProduct()[pri:1, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:01Z" name="searchWithValidProduct" finished-at="2023-11-27T20:00:03Z" duration-ms="1487" status="PASS">
+        <test-method signature="registerWithoutSubscription()[pri:1, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:16Z" name="registerWithoutSubscription" finished-at="2023-12-01T20:36:19Z" duration-ms="2688" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:03Z" name="tearDown" finished-at="2023-11-27T20:00:04Z" duration-ms="918" status="PASS">
+        </test-method> <!-- registerWithoutSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:19Z" name="tearDown" finished-at="2023-12-01T20:36:20Z" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:04Z" name="startChromeBrowser" finished-at="2023-11-27T20:00:11Z" duration-ms="7365" status="PASS">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:41Z" name="startChromeBrowser" finished-at="2023-12-01T20:36:51Z" duration-ms="9779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:11Z" name="searchWithInvalidProduct" finished-at="2023-11-27T20:00:13Z" duration-ms="1448" status="FAIL">
+        <test-method signature="registerWithSubscription()[pri:2, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:51Z" name="registerWithSubscription" finished-at="2023-12-01T20:36:53Z" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:36:53Z" name="tearDown" finished-at="2023-12-01T20:36:54Z" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:16Z" name="startChromeBrowser" finished-at="2023-12-01T20:37:26Z" duration-ms="10138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="registrationWithoutPrivacyPolicyCheck()[pri:3, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:26Z" name="registrationWithoutPrivacyPolicyCheck" finished-at="2023-12-01T20:37:29Z" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithoutPrivacyPolicyCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:29Z" name="tearDown" finished-at="2023-12-01T20:37:30Z" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:30Z" name="startChromeBrowser" finished-at="2023-12-01T20:37:41Z" duration-ms="10378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="registerWithEmptyFields()[pri:4, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:41Z" name="registerWithEmptyFields" finished-at="2023-12-01T20:37:42Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterTest@6c779568]" started-at="2023-12-01T20:37:42Z" name="tearDown" finished-at="2023-12-01T20:37:42Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.RegisterTest -->
+      <class name="com.selenium.testcases.SearchTest">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:35:13Z" name="startChromeBrowser" finished-at="2023-12-01T20:35:28Z" duration-ms="15141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:35:28Z" name="searchWithValidProduct" finished-at="2023-12-01T20:35:31Z" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:35:31Z" name="tearDown" finished-at="2023-12-01T20:35:32Z" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:36:20Z" name="startChromeBrowser" finished-at="2023-12-01T20:36:27Z" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:36:27Z" name="searchWithInvalidProduct" finished-at="2023-12-01T20:36:28Z" duration-ms="1173" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Prduct is found expected [true] but found [false]]]>
@@ -34,7 +84,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at com.selenium.pages.SearchPage.verifySearchFailedWarning(SearchPage.java:35)
-	at com.selenium.testcases.Search.searchWithInvalidProduct(Search.java:35)
+	at com.selenium.testcases.SearchTest.searchWithInvalidProduct(SearchTest.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,17 +116,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:14Z" name="tearDown" finished-at="2023-11-27T20:00:15Z" duration-ms="1406" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:36:29Z" name="tearDown" finished-at="2023-12-01T20:36:30Z" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="searchWithoutProduct()[pri:3, instance:com.selenium.testcases.Search@dd0c991]" started-at="2023-11-27T20:00:15Z" name="searchWithoutProduct" finished-at="2023-11-27T20:00:15Z" depends-on-methods="com.selenium.testcases.Search.searchWithInvalidProduct" duration-ms="0" status="SKIP">
+        <test-method signature="searchWithoutProduct()[pri:3, instance:com.selenium.testcases.SearchTest@4a668b6e]" started-at="2023-12-01T20:36:54Z" name="searchWithoutProduct" finished-at="2023-12-01T20:36:54Z" depends-on-methods="com.selenium.testcases.SearchTest.searchWithInvalidProduct" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Search.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.Search@dd0c991] depends on not successfully finished methods]]>
+              <![CDATA[Method SearchTest.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.SearchTest@4a668b6e] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Search.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.Search@dd0c991] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method SearchTest.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.SearchTest@4a668b6e] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -101,7 +151,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithoutProduct -->
-      </class> <!-- com.selenium.testcases.Search -->
+      </class> <!-- com.selenium.testcases.SearchTest -->
+      <class name="com.selenium.testcases.LoginTest">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:34Z" name="startChromeBrowser" finished-at="2023-12-01T20:35:44Z" duration-ms="9530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithValidUserNamePassword(java.lang.String, java.lang.String)[pri:1, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:44Z" name="loginWithValidUserNamePassword" data-provider="supplyTestData" finished-at="2023-12-01T20:35:46Z" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subbutop5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:46Z" name="tearDown" finished-at="2023-12-01T20:35:46Z" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:46Z" name="startChromeBrowser" finished-at="2023-12-01T20:35:55Z" duration-ms="8538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithValidUserNamePassword(java.lang.String, java.lang.String)[pri:1, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:55Z" name="loginWithValidUserNamePassword" data-provider="supplyTestData" finished-at="2023-12-01T20:35:56Z" duration-ms="1523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhash2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:56Z" name="tearDown" finished-at="2023-12-01T20:35:57Z" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:35:57Z" name="startChromeBrowser" finished-at="2023-12-01T20:36:05Z" duration-ms="7905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithValidUserNamePassword(java.lang.String, java.lang.String)[pri:1, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:05Z" name="loginWithValidUserNamePassword" data-provider="supplyTestData" finished-at="2023-12-01T20:36:07Z" duration-ms="1597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhash3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNamePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:07Z" name="tearDown" finished-at="2023-12-01T20:36:07Z" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:30Z" name="startChromeBrowser" finished-at="2023-12-01T20:36:39Z" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithValidUsernameAndInvalidPassword()[pri:2, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:39Z" name="loginWithValidUsernameAndInvalidPassword" finished-at="2023-12-01T20:36:40Z" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:40Z" name="tearDown" finished-at="2023-12-01T20:36:41Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:36:54Z" name="startChromeBrowser" finished-at="2023-12-01T20:37:03Z" duration-ms="8523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithInvalidUsernameAndValidPassword()[pri:3, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:37:03Z" name="loginWithInvalidUsernameAndValidPassword" finished-at="2023-12-01T20:37:04Z" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:37:04Z" name="tearDown" finished-at="2023-12-01T20:37:05Z" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:37:05Z" name="startChromeBrowser" finished-at="2023-12-01T20:37:15Z" duration-ms="9649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="loginWithNoCredentials()[pri:3, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:37:15Z" name="loginWithNoCredentials" finished-at="2023-12-01T20:37:15Z" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginTest@6f27a732]" started-at="2023-12-01T20:37:15Z" name="tearDown" finished-at="2023-12-01T20:37:16Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

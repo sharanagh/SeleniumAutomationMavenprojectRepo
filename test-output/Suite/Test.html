@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 27 19:59:45 IST 2023</td>
+<td>Started on:</td><td>Fri Dec 01 20:35:12 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30146 ms)</td>
+<tr><td>Total time:</td><td>150 seconds (150820 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.selenium.testcases.Search.searchWithInvalidProduct()'><b>searchWithInvalidProduct</b><br>Test class: com.selenium.testcases.Search</td>
+<td title='com.selenium.testcases.SearchTest.searchWithInvalidProduct()'><b>searchWithInvalidProduct</b><br>Test class: com.selenium.testcases.SearchTest</td>
 <td><div><pre>java.lang.AssertionError: Prduct is found expected [true] but found [false]
 	at com.selenium.pages.SearchPage.verifySearchFailedWarning(SearchPage.java:35)
-	at com.selenium.testcases.Search.searchWithInvalidProduct(Search.java:35)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1414924274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1414924274'><pre>java.lang.AssertionError: Prduct is found expected [true] but found [false]
+	at com.selenium.testcases.SearchTest.searchWithInvalidProduct(SearchTest.java:35)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1890097328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1890097328'><pre>java.lang.AssertionError: Prduct is found expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at com.selenium.pages.SearchPage.verifySearchFailedWarning(SearchPage.java:35)
-	at com.selenium.testcases.Search.searchWithInvalidProduct(Search.java:35)
+	at com.selenium.testcases.SearchTest.searchWithInvalidProduct(SearchTest.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,7 +113,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>1</td>
-<td>com.selenium.testcases.Search@dd0c991</td></tr>
+<td>com.selenium.testcases.SearchTest@4a668b6e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -123,10 +123,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.selenium.testcases.Search.searchWithValidProduct()'><b>searchWithValidProduct</b><br>Test class: com.selenium.testcases.Search</td>
+<td title='com.selenium.testcases.LoginTest.loginWithInvalidUsernameAndValidPassword()'><b>loginWithInvalidUsernameAndValidPassword</b><br>Test class: com.selenium.testcases.LoginTest</td>
 <td></td>
 <td>1</td>
-<td>com.selenium.testcases.Search@dd0c991</td></tr>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.LoginTest.loginWithNoCredentials()'><b>loginWithNoCredentials</b><br>Test class: com.selenium.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.LoginTest.loginWithValidUserNamePassword()'><b>loginWithValidUserNamePassword</b><br>Test class: com.selenium.testcases.LoginTest<br>Parameters: subbutop5@gmail.com, Password@123</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.LoginTest.loginWithValidUserNamePassword()'><b>loginWithValidUserNamePassword</b><br>Test class: com.selenium.testcases.LoginTest<br>Parameters: subhash2@gmail.com, Password@123</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.LoginTest.loginWithValidUserNamePassword()'><b>loginWithValidUserNamePassword</b><br>Test class: com.selenium.testcases.LoginTest<br>Parameters: subhash3@gmail.com, Password@123</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.LoginTest.loginWithValidUsernameAndInvalidPassword()'><b>loginWithValidUsernameAndInvalidPassword</b><br>Test class: com.selenium.testcases.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.testcases.LoginTest@6f27a732</td></tr>
+<tr>
+<td title='com.selenium.testcases.RegisterTest.registerWithEmptyFields()'><b>registerWithEmptyFields</b><br>Test class: com.selenium.testcases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.testcases.RegisterTest@6c779568</td></tr>
+<tr>
+<td title='com.selenium.testcases.RegisterTest.registerWithSubscription()'><b>registerWithSubscription</b><br>Test class: com.selenium.testcases.RegisterTest</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.testcases.RegisterTest@6c779568</td></tr>
+<tr>
+<td title='com.selenium.testcases.RegisterTest.registerWithoutSubscription()'><b>registerWithoutSubscription</b><br>Test class: com.selenium.testcases.RegisterTest</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.testcases.RegisterTest@6c779568</td></tr>
+<tr>
+<td title='com.selenium.testcases.RegisterTest.registrationWithoutPrivacyPolicyCheck()'><b>registrationWithoutPrivacyPolicyCheck</b><br>Test class: com.selenium.testcases.RegisterTest</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.testcases.RegisterTest@6c779568</td></tr>
+<tr>
+<td title='com.selenium.testcases.SearchTest.searchWithValidProduct()'><b>searchWithValidProduct</b><br>Test class: com.selenium.testcases.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.testcases.SearchTest@4a668b6e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -136,10 +186,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.selenium.testcases.Search.searchWithoutProduct()'><b>searchWithoutProduct</b><br>Test class: com.selenium.testcases.Search</td>
-<td><div><pre>java.lang.Throwable: Method Search.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.Search@dd0c991] depends on not successfully finished methods
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1953290071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1953290071'><pre>java.lang.Throwable: Method Search.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.Search@dd0c991] depends on not successfully finished methods
+<td title='com.selenium.testcases.SearchTest.searchWithoutProduct()'><b>searchWithoutProduct</b><br>Test class: com.selenium.testcases.SearchTest</td>
+<td><div><pre>java.lang.Throwable: Method SearchTest.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.SearchTest@4a668b6e] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1258503852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1258503852'><pre>java.lang.Throwable: Method SearchTest.searchWithoutProduct()[pri:3, instance:com.selenium.testcases.SearchTest@4a668b6e] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
